@@ -1,0 +1,37 @@
+body{
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+}
+
+table {
+    border: 3px dotted aquamarine;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    width: 75%;
+}
+
+tr td  {
+    border: 1px dotted black;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    width: 75%;
+    border-style: dotted;
+    padding: 10px;
+}
+
+th {
+    border: 1px dotted black;
+    height: 50px;
+    text-align: center;
+    background-color: rgb(199, 241, 241);
+    padding: 15px;
+    border-color: teal;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2;}
+tr:hover {background-color: #03c78c;}

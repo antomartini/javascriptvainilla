@@ -1,0 +1,29 @@
+body{
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+}
+
+table{
+    margin:10px;
+    border-style: dotted;
+    padding: 10px;
+}
+
+td,tr,th {
+    border-color: teal;
+    border-style: dotted;
+    padding: 10px;
+
+}
+
+button {
+    padding: 10px;
+}
+
+button:hover {
+    color: tomato;
+}
+
